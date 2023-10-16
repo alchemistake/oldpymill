@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name="millheater",
-    packages=["mill"],
+    name="oldmillheater",
+    packages=["oldmill"],
     install_requires=["aiohttp>=3.7.4,<4", "async_timeout>=3.0.0", "cryptography"],
     version="0.10.0",
     description="A python3 library to communicate with Mill",
@@ -10,7 +10,7 @@ setup(
     python_requires=">=3.5.3",
     author="Daniel Hjelseth Hoyer",
     author_email="mail@dahoiv.net",
-    url="https://github.com/Danielhiversen/pymill",
+    url="https://github.com/alchemistake/oldpymill",
     license="MIT",
     classifiers=[
         "Intended Audience :: Developers",
